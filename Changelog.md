@@ -1,7 +1,612 @@
 # Changelog
 
 This file only reflects the changes that are made in this image. Please refer to the upstream GitLab [CHANGELOG](
-https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list of changes in GitLab.
+https://gitlab.com/gitlab-org/gitlab-foss/blob/master/CHANGELOG.md) for the list of changes in GitLab.
+
+**13.10.2**
+- gitlab: upgrade CE to v13.10.2
+- gitaly: upgrade to v13.10.2
+- golang: upgrade to v1.16.3
+- ubuntu: upgrade to bionic-20210325
+
+**13.10.1**
+- gitlab: upgrade CE to v13.10.1
+- gitaly: upgrade to v13.10.1
+- added libmagic1 to fit requirements of ruby-magic-static-0.3.4 (necessary for puma)
+
+**13.10.0**
+- gitlab: upgrade CE to v13.10.0
+- gitaly: upgrade to v13.10.0
+- gitlab-pages: upgrade to v1.36.0
+
+**13.9.5**
+- gitlab: upgrade CE to v13.9.5
+- gitaly: upgrade to v13.9.5
+
+**13.9.4**
+- gitlab: upgrade CE to v13.9.4
+- gitaly: upgrade to v13.9.4
+- golang: upgrade to v1.16.2
+- ubuntu: upgrade to bionic-20210222
+
+**13.9.3**
+- gitlab: upgrade CE to v13.9.3
+- gitaly: upgrade to v13.9.3
+- gitlab-shell: upgrade to v13.17.0
+
+**13.9.2**
+- gitlab: upgrade CE to v13.9.2
+- gitaly: upgrade to v13.9.2
+- gitlab-workhorse: upgrade to v8.63.2
+
+
+**13.9.1**
+- gitlab: upgrade CE to v13.9.1
+- gitaly: upgrade to v13.9.1
+
+
+**13.9.0**
+- gitlab: upgrade CE to v13.9.0
+- gitaly: upgrade to v13.9.0
+- gitlab-shell: upgrade to v13.16.1
+- gitlab-pages: upgrade to v1.35.0
+- gitlab-workhorse: upgrade to v8.63.0
+- golang: upgrade to v1.16
+
+**13.8.4**
+- added `SSL_PROTOCOLS` option to change protocols of the nginx
+- added `SSL_REGISTRY_CIPHERS`
+- added `SSL_REGISTRY_PROTOCOLS`
+- added `SSL_PAGES_CIPHERS`
+- added `SSL_PAGES_PROTOCOLS`
+- gitlab: upgrade CE to v13.8.4
+- gitaly: upgrade to v13.8.4
+- gitlab-shell: upgrade to v13.15.1
+
+**13.8.3**
+- gitlab: upgrade CE to v13.8.3
+- gitaly: upgrade to v13.8.3
+- golang: upgrade to v1.15.8
+
+**13.8.2**
+- gitlab: upgrade CE to v13.8.2
+- gitaly: upgrade to v13.8.2
+
+**13.8.1**
+- gitlab: upgrade CE to v13.8.1
+- gitaly: upgrade to v13.8.1
+
+**13.8.0**
+- gitlab: upgrade CE to v13.8.0
+- gitaly: upgrade to v13.8.0
+- gitlab-shell: upgrade to v13.15.0
+- gitlab-workhorse: upgrade to v8.59.0
+- gitlab-pages: upgrade to v1.34.0
+- golang: upgrade to v1.15.7
+- ubuntu: upgrade to bionic-20210118
+
+**13.7.4**
+- gitlab: upgrade CE to v13.7.4
+
+**13.7.3**
+- gitlab: upgrade CE to v13.7.3
+- gitlab-pages: upgrade to v1.34.0
+- gitlab-shell: upgrade to v13.7.3
+- gitlab-workhorse: upgrade to v8.58.2
+
+**13.7.1**
+- gitlab: upgrade CE to v13.7.1
+- gitaly: upgrade v13.7.1
+
+**13.7.0**
+- gitlab: upgrade CE to v13.7.0
+- gitaly: upgrade v13.7.0
+- gitlab-shell: upgrade to v13.14.0
+- gitlab-pages: upgrade to v1.32.0
+- gitlab-workhorse: upgrade to v8.58.0
+- ubuntu: upgrade to ubuntu bionic-20201119
+- postgresql: upgrade to postgresql 12
+
+**13.6.3**
+- gitlab: upgrade CE to v13.6.3
+- gitaly: upgrade v13.6.3
+
+**13.6.2**
+- gitlab: upgrade CE to v13.6.2
+- gitaly: upgrade v13.6.2
+
+**13.6.1**
+- gitlab: upgrade CE to v13.6.1
+- gitaly: upgrade v13.6.1
+
+**13.6.0**
+- gitlab: upgrade CE to v13.6.0
+- gitaly: upgrade v13.6.0
+- gitlab-shell: upgrade to v13.13.0
+- gitlab-pages: upgrade to v1.30.0
+- gitlab-workhorse: upgrade to v8.54.0
+- use bundler 2.1.4
+- use ruby 2.7
+
+**13.5.4**
+- gitlab: upgrade CE to v13.5.4
+- gitaly: upgrade v13.5.4
+
+**13.5.3**
+- gitlab: upgrade CE to v13.5.3
+- gitaly: upgrade v13.5.3
+
+**13.5.2**
+- gitlab: upgrade CE to v13.5.2
+- gitaly: upgrade v13.5.2
+
+**13.5.1**
+- gitlab: upgrade CE to v13.5.1
+- gitaly: upgrade v13.5.1
+- gitlab-shell: upgrade to v13.11.0
+- gitlab-pages: upgrade to v1.28.0
+- gitlab-workhorse: upgrade to v8.51.0
+
+**13.4.4**
+- gitlab: upgrade CE to v13.4.4
+- gitaly: upgrade to v13.4.4
+
+**13.4.3**
+- gitlab: upgrade CE to v13.4.3
+- gitaly: upgrade to v13.4.3
+
+**13.4.2**
+- gitlab: upgrade CE to v13.4.2
+- gitaly: upgrade to v13.4.2
+- gitlab-pages: upgrade to 1.25.0
+- gitlab-workhorse: upgrade to 8.46.0
+- gitlab-shell: uprade to 13.7.0
+- ubuntu: upgrade to bionic-20200921
+
+**13.3.4**
+- gitlab: upgrade CE to v13.3.4
+- gitaly: upgrade to v13.3.4
+
+**13.3.1**
+- gitlab: upgrade CE to v13.3.1
+- gitaly: upgrade to v13.3.1
+
+**13.3.0**
+- gitlab: upgrade CE to v13.3.0
+- gitaly: upgrade to v13.3.0
+- gitlab-pages: upgrade to v1.22.0
+- gitlab-shell: upgrade to v13.6.0
+- gitlab-workhorse: upgrade to v8.39.0
+
+**13.2.6**
+- gitlab: upgrade CE to v13.2.6
+
+**13.2.4**
+- gitlab: upgrade CE to v13.2.4
+- ubuntu: upgrade to bionic-20200713
+
+**13.2.3**
+- gitlab: upgrade CE to v13.2.3
+- golang: upgrade to 1.14.7
+- gitaly: upgrade to 13.2.3
+- postgresql: add btree_gist extension
+
+**13.2.2**
+- gitlab: upgrade CE to v13.2.2
+
+**13.2.1**
+- gitlab: upgrade CE to v13.2.1
+
+**13.0.7**
+- gitlab: upgrade CE to v13.0.7
+
+**13.0.6**
+- gitlab: upgrade CE to v13.0.6
+
+**13.0.5**
+- gitlab: upgrade CE to v13.0.5
+
+**13.0.3**
+- gitlab: upgrade CE to v13.0.3
+
+**13.0.2**
+- gitlab: upgrade CE to v13.0.2
+
+**13.0.1**
+- gitlab: upgrade CE to v13.0.1
+
+**13.0.0**
+- gitlab: upgrade CE to v13.0.0
+
+**12.10.6**
+- gitlab: upgrade CE to v12.10.6
+
+**12.10.4**
+- updated to ubuntu:bionic-20200403
+- gitlab-workhorse: update to 8.30.1
+- sync: upstream configs
+- gitlab: upgrade to 12.10.4
+
+**12.9.5**
+- gitlab: updated to 12.9.5
+- gitlab-shell: updated to 12.2.0
+- gitaly: updated to 12.10.0
+
+**12.9.4**
+- gitlab: upgrade CE to v12.9.4
+- Update gitlab-workhorse to 8.25.2
+- Update golang to 1.13.10
+
+**12.9.2**
+- gitlab: upgrade CE to v12.9.2
+
+**12.9.1**
+- gitlab: upgrade CE to v12.9.1
+
+**12.9.0**
+- gitlab: upgrade CE to v12.9.0
+- replaced unicorn with puma
+- Removed `UNICORN_WORKERS`
+- Removed `UNICORN_TIMEOUT`
+- Added `PUMA_THREADS_MIN`
+- Added `PUMA_THREADS_MAX`
+- Added `PUMA_WORKERS`
+- Added `PUMA_TIMEOUT`
+
+**12.8.8**
+- gitlab: upgrade CE to v12.8.8
+
+**12.8.7**
+- gitlab: upgrade CE to v12.8.7
+
+**12.8.6**
+- gitlab: upgrade CE to v12.8.6
+
+**12.8.5**
+- gitlab: upgrade CE to v12.8.5
+
+**12.8.4**
+- gitlab: upgrade CE to v12.8.4
+
+**12.8.3**
+- gitlab: upgrade CE to v12.8.3
+
+**12.8.2**
+- gitlab: upgrade CE to v12.8.2
+
+**12.8.1**
+- gitlab: upgrade CE to v12.8.1
+
+**12.8.0**
+- gitlab: upgrade CE to v12.8.0
+- fix: ArgumentError: 'import/{{oauth2_generic_name}}' is not supported [#2101](https://github.com/sameersbn/docker-gitlab/issues/2101)
+
+**12.7.8**
+- Upgrade GitLab CE to 12.7.8
+
+**12.7.7**
+- Upgrade GitLab CE to 12.7.7
+- Add Generic OAuth Provider PR#2070
+
+**12.7.7**
+- Upgrade GitLab CE to 12.7.7
+
+**12.7.6**
+- gitlab: upgrade CE to v12.7.6
+
+**12.7.5**
+- gitlab: upgrade CE to v12.7.5
+
+**12.7.4**
+- Upgrade GitLab CE to 12.7.4
+- Update golang to 1.13.7
+- Update gitlab-pages to 1.15.0
+- Update gitlab-workhorse to 8.20.0
+- Update gitaly to 1.85.0
+
+**12.7.2**
+- Upgrade GitLab CE to 12.7.2
+
+**12.7.0**
+- Update gitlab-shell to 11.0.0
+- Upgrade GitLab CE to 12.7.0
+- Update golang to 1.13.6
+- Update gitaly to 1.83.0
+- Update gitlab-pages to 1.14.0
+- Update gitlab-workhorse to 8.19.0
+
+**12.6.4**
+- gitlab: upgrade CE to v12.6.4
+
+**12.6.3**
+- gitlab: upgrade CE to v12.6.3
+
+**12.6.2**
+- gitlab: upgrade CE to v12.6.2
+
+**12.6.1**
+- gitlab: upgrade CE to v12.6.1
+
+**12.6.0**
+- gitlab: upgrade CE to v12.6.0
+
+**12.5.7**
+- gitlab: upgrade CE to v12.5.7
+
+**12.5.6**
+- gitlab: upgrade CE to v12.5.6
+
+**12.5.5**
+- gitlab: upgrade CE to v12.5.5
+
+**12.5.4**
+- gitlab: upgrade CE to v12.5.4
+- Update golang to 1.12.14
+
+**12.5.3**
+- gitlab: upgrade CE to v12.5.3
+
+**12.5.2**
+- gitlab: upgrade CE to v12.5.2
+
+**12.5.1**
+- gitlab: upgrade CE to v12.5.1
+
+**12.5.0**
+- gitlab: upgrade CE to v12.5.0
+
+**12.4.3**
+- gitlab: upgrade CE to v12.4.3
+
+**12.4.2**
+- gitlab: upgrade CE to v12.4.2
+
+**12.4.1**
+- gitlab: upgrade CE to v12.4.1
+
+**12.4.0**
+- gitlab: upgrade CE to v12.4.0
+
+**12.3.5**
+- gitlab: upgrade CE to v12.3.5
+
+**12.3.4**
+- gitlab: upgrade CE to v12.3.4
+
+**12.3.3**
+- gitlab: upgrade CE to v12.3.3
+
+**12.3.2**
+- gitlab: upgrade CE to v12.3.2
+
+**12.3.1**
+- gitlab: upgrade CE to v12.3.1
+
+**12.3.0**
+- gitlab: upgrade CE to v12.3.0
+
+**12.2.5**
+- gitlab: upgrade CE to v12.2.5
+
+**12.2.4**
+- gitlab: upgrade CE to v12.2.4
+
+**12.2.3**
+- gitlab: upgrade CE to v12.2.3
+
+**12.2.1**
+- gitlab: upgrade CE to v12.2.1
+
+**12.2.0**
+- gitlab: upgrade CE to v12.2.0
+- upgrade base image to ubuntu:bionic
+
+**12.1.6**
+- gitlab: upgrade CE to v12.1.6
+
+**12.1.4**
+- gitlab: upgrade CE to v12.1.4
+
+**12.1.3**
+- gitlab: upgrade CE to v12.1.3
+
+**12.1.2**
+- gitlab: upgrade CE to v12.1.2
+
+**12.1.1**
+- gitlab: upgrade CE to v12.1.1
+
+**12.1.0**
+- gitlab: upgrade CE to v12.1.0
+- Removed MySQL related information and packages. GitLab v12.1.X or greater requires only PostgreSQL. Do an Migration before upgrading to v12.1.X. For more Information have a look at the [Migration Guide](https://docs.gitlab.com/ce/update/mysql_to_postgresql.html)
+
+**12.0.4**
+- gitlab: upgrade CE to v12.0.4
+
+**12.0.3**
+- gitlab: upgrade CE to v12.0.3
+
+**12.0.2**
+- gitlab: upgrade CE to v12.0.2
+
+**12.0.1**
+- gitlab: upgrade CE to v12.0.1
+
+**12.0.0**
+- gitlab: upgrade CE to v12.0.0
+- Update gitaly to 1.47.0
+- Update gitlab-shell to 9.3.0
+- Update gitlab-pages to 1.6.1
+- ruby: update to 2.6
+- python: update to 3
+
+**11.11.3**
+- gitlab: upgrade CE to v11.11.3
+- Update gitaly to 1.42.4
+- Update golang to 1.12.6
+
+**11.11.2**
+- gitlab: upgrade CE to v11.11.2
+- Update gitaly to 1.42.3
+
+**11.11.1**
+- gitlab: upgrade CE to v11.11.1
+- Update gitaly to 1.42.2
+
+**11.11.0**
+- gitlab: upgrade CE to v11.11.0
+- Update gitaly to 1.42.0
+- Update gitlab-shell to 9.1.0
+- Update gitlab-workhorse to 8.7.0
+
+**11.10.4**
+- gitlab: upgrade CE to v11.10.4
+
+**11.10.3**
+- gitlab: upgrade CE to v11.10.3
+
+**11.10.2**
+- gitlab: upgrade CE to v11.10.2
+
+**11.10.1**
+- gitlab: upgrade CE to v11.10.1
+
+**11.10.0**
+- gitlab: upgrade CE to v11.10.0
+
+**11.9.8**
+- gitlab: upgrade CE to v11.9.8
+
+**11.9.7**
+- gitlab: upgrade CE to v11.9.7
+
+**11.9.6**
+- gitlab: upgrade CE to v11.9.6
+
+**11.9.5**
+- gitlab: upgrade CE to v11.9.5
+
+**11.9.4**
+- gitlab: upgrade CE to v11.9.4
+- Update gitlab-workhorse to 8.3.3
+
+**11.9.1**
+- gitlab: upgrade CE to v11.9.1
+- Update gitaly to 1.27.1
+
+**11.9.0**
+- gitlab: upgrade CE to v11.9.0
+
+**11.8.3**
+- gitlab: upgrade CE to v11.8.3
+
+**11.8.2**
+- gitlab: upgrade CE to v11.8.2
+
+**11.8.1**
+- gitlab: upgrade CE to v11.8.1
+
+**11.8.0**
+- gitlab: upgrade CE to v11.8.0
+- Update gitlab-workhorse to 8.3.1
+- Update gitaly to 1.20.0
+- Update gitlab-pages to 1.5.0
+
+**11.7.5**
+- gitlab: upgrade CE to v11.7.5
+
+**11.7.4**
+- gitlab: upgrade CE to v11.7.4
+
+**11.7.3**
+- gitlab: upgrade CE to v11.7.3
+- Update gitlab-workhorse to 8.1.1
+- Update gitaly to 1.13.0
+- Update gitlab-pages to 1.4.0
+
+**11.7.0**
+- gitlab: upgrade CE to v11.7.0
+
+**11.6.5**
+- gitlab: upgrade CE to v11.6.5
+
+**11.6.4**
+- gitlab: upgrade CE to v11.6.4
+
+**11.6.3**
+- gitlab: upgrade CE to v11.6.3
+
+**11.6.2**
+- gitlab: upgrade CE to v11.6.2
+
+**11.6.1**
+- gitlab: upgrade CE to v11.6.1
+- Added `GITLAB_IMPERSONATION_ENABLED`
+- Added `OAUTH_SAML_ATTRIBUTE_STATEMENTS_USERNAME`
+- Added `GITLAB_PAGES_ACCESS_CONTROL_SERVER`
+- Added `GITLAB_PAGES_ACCESS_CLIENT_ID`
+- Added `GITLAB_PAGES_ACCESS_CLIENT_SECRET`
+- Added `GITLAB_PAGES_ACCESS_SECRET`
+- Added `GITLAB_PAGES_ACCESS_REDIRECT_URI`
+
+**11.6.0**
+- gitlab: upgrade CE to v11.6.0
+- Update gitaly to 1.7.1
+- Update gitlab-shell to 8.4.3
+- Update gitlab-workhorse to 7.6.0
+- Update golang to 1.11.4
+- Added `LDAP_USER_ATTRIBUTE_USERNAME`
+- Added `LDAP_USER_ATTRIBUTE_MAIL`
+- Added `LDAP_USER_ATTRIBUTE_NAME`
+- Added `LDAP_USER_ATTRIBUTE_FIRSTNAME`
+- Added `LDAP_USER_ATTRIBUTE_LASTNAME`
+- Added `GITLAB_BACKUP_DIR_CHOWN`
+- Added `GITLAB_BACKUP_DIR_GROUP`
+- Added `GITLAB_PAGES_NGINX_PROXY`
+
+**11.5.5**
+- gitlab: upgrade CE to v11.5.5
+
+**11.5.4**
+- gitlab: upgrade CE to v11.5.4
+
+**11.5.3**
+- gitlab: upgrade CE to v11.5.3
+
+**11.5.2**
+- gitlab: upgrade CE to v11.5.2
+
+**11.5.1-1**
+- Fixed GitLab Dependencies
+
+**11.5.1**
+- gitlab: upgrade CE to v11.5.1
+
+**11.5.0**
+- gitlab: upgrade CE to v11.5.0
+
+**11.4.7**
+- gitlab: upgrade CE to v11.4.7
+
+**11.4.6**
+- gitlab: upgrade CE to v11.4.6
+
+**11.4.5**
+- gitlab: upgrade CE to v11.4.5
+
+**11.4.4**
+- gitlab: upgrade CE to v11.4.4
+- golang: update to 1.10.4
+
+**11.4.3**
+- gitlab: upgrade CE to v11.4.3
+
+**11.4.2**
+- gitlab: upgrade CE to v11.4.2
+
+**11.4.1**
+- gitlab: upgrade CE to v11.4.1
+- Add docs how to reuse ssh port [#1731](https://github.com/sameersbn/docker-gitlab/pull/1731)
 
 **11.4.0**
 - gitlab: upgrade CE to v11.4.0
@@ -29,7 +634,7 @@ https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list o
 - gitlab: upgrade CE to v11.3.0
 - Fix backup config stripping for when AWS & GCS backups are disabled [#1725](https://github.com/sameersbn/docker-gitlab/pull/1725)
 - Correct Backup Date format for selective backups [#1699](https://github.com/sameersbn/docker-gitlab/pull/1699)
-- Fix gitlay-ssh symlink to enable rebase/squash in forks 
+- Fix gitlay-ssh symlink to enable rebase/squash in forks
 
 **11.2.3**
 - gitlab: upgrade CE to v11.2.3
@@ -340,7 +945,7 @@ https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list o
 
 **9.3.8**
 - gitlab: upgrade to CE v9.3.8
-- Added RE2 library to build dependencies ([issue 35342](https://gitlab.com/gitlab-org/gitlab-ce/issues/35342))
+- Added RE2 library to build dependencies ([issue 35342](https://gitlab.com/gitlab-org/gitlab-foss/issues/35342))
 
 **9.3.7**
 - gitlab: upgrade to CE v9.3.7

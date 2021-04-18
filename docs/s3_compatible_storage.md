@@ -72,7 +72,7 @@ version: '2'
 services:
   redis:
     restart: always
-    image: sameersbn/redis:4.0.9-1
+    image: sameersbn/redis:4.0.9-2
     command:
     - --loglevel warning
     volumes:
@@ -80,7 +80,7 @@ services:
 
   postgresql:
     restart: always
-    image: sameersbn/postgresql:10
+    image: sameersbn/postgresql:10-2
     volumes:
     - /tmp/docker/gitlab/postgresql:/var/lib/postgresql:Z
     environment:
@@ -174,6 +174,7 @@ services:
     - OAUTH_GITLAB_APP_SECRET=
     - OAUTH_BITBUCKET_API_KEY=
     - OAUTH_BITBUCKET_APP_SECRET=
+    - OAUTH_BITBUCKET_URL=
     - OAUTH_SAML_ASSERTION_CONSUMER_SERVICE_URL=
     - OAUTH_SAML_IDP_CERT_FINGERPRINT=
     - OAUTH_SAML_IDP_SSO_TARGET_URL=
@@ -184,6 +185,7 @@ services:
     - OAUTH_SAML_EXTERNAL_GROUPS=
     - OAUTH_SAML_ATTRIBUTE_STATEMENTS_EMAIL=
     - OAUTH_SAML_ATTRIBUTE_STATEMENTS_NAME=
+    - OAUTH_SAML_ATTRIBUTE_STATEMENTS_USERNAME=
     - OAUTH_SAML_ATTRIBUTE_STATEMENTS_FIRST_NAME=
     - OAUTH_SAML_ATTRIBUTE_STATEMENTS_LAST_NAME=
     - OAUTH_CROWD_SERVER_URL=
@@ -192,6 +194,7 @@ services:
     - OAUTH_AUTH0_CLIENT_ID=
     - OAUTH_AUTH0_CLIENT_SECRET=
     - OAUTH_AUTH0_DOMAIN=
+    - OAUTH_AUTH0_SCOPE=
     - OAUTH_AZURE_API_KEY=
     - OAUTH_AZURE_API_SECRET=
     - OAUTH_AZURE_TENANT_ID=
@@ -236,4 +239,3 @@ To avoid user interaction in the restore operation, specify the timestamp of the
 docker run --name gitlab -it --rm [OPTIONS] \
     sameersbn/gitlab:8.16.4 app:rake gitlab:backup:restore BACKUP=1417624827
 ```
-
